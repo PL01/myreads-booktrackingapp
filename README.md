@@ -12,7 +12,7 @@ The focus of this project is to implement a web page using React. The task of th
 * [Important](#important)
 * [Creat React App](#create-react-app)
 * [Contributing](#contributing)
-* [Tutorials] (#tutorials)
+* [Tutorials](#tutorials)
 * [Conclusion](#conclusion)
 
 ## How to Install The Project
