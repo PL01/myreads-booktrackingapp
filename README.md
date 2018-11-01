@@ -1,15 +1,13 @@
 # MyReads Project
 
-This is the starter template for the final assessment project for Udacity's React Fundamentals course. The goal of this template is to save you time by providing a static example of the CSS and HTML markup that may be used, but without any of the React code that is needed to complete the project. If you choose to start with this template, your job will be to add interactivity to the app by refactoring the static code in this template.
+The focus of this project is to implement a web page using React. The task of this app is to track books that the user is currently reading, wants to read, and have read on the home page. In addition, the books should have a toggle button to move any book into different shelves. Lastly, the app should have a search button that gives an option for the user to add books into a shelf as well. 
+## How to Install The Project
 
-Of course, you are free to start this project from scratch if you wish! Just be sure to use [Create React App](https://github.com/facebookincubator/create-react-app) to bootstrap the project.
+To get started, you must first install node.js based on the operating system that you're using. Once the node.js is installed in your local computer, you must place path variable correctly in order to use the terminal or command prompt. To make sure that you have node install, run `node -v` and `npm -v`. you will be prompt with the current version of node. Afterwards, you must go into the directory of the project and run  `npm install`. This will install all the project dependencies. Finally, to start the development server, you must run `npm start`. Your browser will automatically take you to localhost:3000/
 
-## TL;DR
+## Packages added
 
-To get started developing right away:
-
-* install all project dependencies with `npm install`
-* start the development server with `npm start`
+In the project, we installed `react` and `react-dom`.
 
 ## What You're Getting
 ```bash
