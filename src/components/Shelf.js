@@ -2,7 +2,11 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 
 import Book from './Book';
-
+/*
+	Shelf is a component that renders the all the books that in the main page.
+	the job of this component is to show the name of the book and to display 
+	the books in the "currently reading", "want to read", and "read" section.
+*/
 class Shelf extends React.Component{
 	
 	componentDidMount(){

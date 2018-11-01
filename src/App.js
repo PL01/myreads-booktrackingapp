@@ -10,6 +10,11 @@ import { Route } from 'react-router-dom'
 import MainPage from './components/pages/MainPage';
 import SearchPage from './components/pages/SearchPage';
 
+/*
+  BookApp component handles routes of the main page (localhost:3000)
+  and the search page (localhost:3000/search)
+*/
+
 class BooksApp extends React.Component {
 
   render() {

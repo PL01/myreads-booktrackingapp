@@ -3,6 +3,10 @@ import { Link } from 'react-router-dom';
 import * as BooksAPI from '../../BooksAPI';
 import Book from '../Book';
 class SearchPage extends React.Component{
+	/*
+		we are initializing the object (constructor)
+		super passes the props into the parent constructor.
+	*/
 
 	constructor(props){
 		super(props);
@@ -12,6 +16,7 @@ class SearchPage extends React.Component{
 			query: ""
 		}
 	}
+
 	componentDidMount(){
 		BooksAPI.getAll()
 		.then(resp => { 
@@ -22,7 +27,13 @@ class SearchPage extends React.Component{
 	updateQuery = (query) => {
       this.setState({query: query}, this.submitSearch);
     }
-
+    /*
+		submitSearch is a book query that the user 
+		wants to find. we first determine if the 
+		query is empty, return nothing. otherwise,
+		use the book api to find related results 
+		based on the query.
+    */
     submitSearch() {
       if(this.state.query === '' || this.state.query === undefined) {
          return this.setState({ results: [] })
