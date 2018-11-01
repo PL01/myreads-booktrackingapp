@@ -12,7 +12,6 @@ The focus of this project is to implement a web page using React. The task of th
 * [Important](#important)
 * [Creat React App](#create-react-app)
 * [Contributing](#contributing)
-* [Tutorials](#tutorials)
 * [Conclusion](#conclusion)
 
 ## How to Install The Project
@@ -103,8 +102,6 @@ This repository is the starter code for _all_ Udacity students. Therefore, we mo
 
 For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
 
-## Tutorials
-Due to my prior limited knowledge and experience with React, I watched the Tutorial by Ryan Wite to help me understand certain concepts. I'd like to give a link to the tutorial. [Tutorial Requests: FEND Project 6 - Walk Through (LONG)](https://www.youtube.com/watch?v=acJHkd6K5kI&=&feature=youtu.be) which you can find in the [FEND Resources](https://www.diigo.com/outliner/fkkvtl/Udacity-MyReads%3A-My-Reads%3A-Book-Tracking-App-Project-(project-%236)?key=4sfz2eik4g) with other tutorials I found also helpful, with enough variety of knowledge that helped me come up with some tweaking. 
 
 ## Conclusion
 This project had to be the most challenging thus far. The most difficult part was moving parts into components, which is where I looked up tutorials to help me. I've had some experience with React prior to this program, but it was limited and rarely used. This was an excellent experience to have hands on project using React. It was interesting to convert a website that was using mostly jQuery to React. I'm excited to see how I'll use React in Project 7 and beyond. I intend to return to this and explore other functionalities and tools to use React for. 
