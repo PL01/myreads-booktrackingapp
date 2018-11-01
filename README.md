@@ -1,9 +1,22 @@
 # MyReads Project
 
-The focus of this project is to implement a web page using React. The task of this app is to track books that the user is currently reading, wants to read, and have read on the home page. In addition, the books should have a toggle button to move any book into different shelves. Lastly, the app should have a search button that gives an option for the user to add books into a shelf as well. 
+The focus of this project is to implement a web page using React. The task of this app is to track books that the user is currently reading, wants to read, and have read on the home page. In addition, the books should have a toggle button to move any book into different shelves. Lastly, the app should have a search button that gives an option for the user to add books into a shelf as well.
+
+## Table Of Contents
+
+* [MyReads Project](#myreads-project)
+* [How To Install The Project](#how-to-install-the-project)
+* [Packages Added](#packages-added)
+* [What You're Getting?](#what-you're-getting)
+* [Backend Server](#backend-server)
+* [Important](#important)
+* [Creat React App](#create-react-app)
+* [Contributing](#contributing)
+* [Conclusion](#conclusion)
+
 ## How to Install The Project
 
-To get started, you must first install node.js based on the operating system that you're using. Once the node.js is installed in your local computer, you must place path variable correctly in order to use the terminal or command prompt. To make sure that you have node install, run `node -v` and `npm -v`. you will be prompt with the current version of node. Afterwards, you must go into the directory of the project and run  `npm install`. This will install all the project dependencies. Finally, to start the development server, you must run `npm start`. Your browser will automatically take you to localhost:3000/
+To get started, you must first install node.js based on the operating system that you're using. Once the node.js is installed in your local computer, you must place path variable correctly in order to use the terminal or command prompt. To make sure that you have node install, run `node -v` and `npm -v`. you will be prompt with the current version of node. Afterwards, you must go into the directory of the project and run  `npm install`. This will install all the project dependencies. Finally, to start the development server, you must run `npm start`. Your browser will automatically take you to localhost:3000/.
 
 ## Packages added
 
@@ -88,3 +101,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
 
 For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Conclusion
+This project had to be the most challenging thus far. The most difficult part was moving parts into components. I've had some experience with React prior to this program, but it was limited and rarely used. This was an excellent experience to have hands on project using React. It was interesting to convert a website that was using mostly jQuery to React. I'm excited to see how I'll use React in Project 7 and beyond. I intend to return to this and explore other functionalities and tools to use React for. 
